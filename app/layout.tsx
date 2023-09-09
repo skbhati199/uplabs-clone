@@ -26,7 +26,7 @@ export default function RootLayout({
           <div>
             <PromotionHeader />
             <Header />
-         
+
             {children}
           </div>
         </ThemeProvider>
