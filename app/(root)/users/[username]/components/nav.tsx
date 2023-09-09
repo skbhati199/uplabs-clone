@@ -7,9 +7,11 @@ export default function Nav() {
     <div className="shadow-md pb-2">
       <div className="flex flex-row items-center text-black max-w-6xl m-auto ">
         <Button variant={"link"} size={"icon"}>
-          <ArrowLeft className="w-5 h-5" />
+          <ArrowLeft className="w-6 h-6" />
         </Button>
-        <h4 className="flex flex-row  justify-center text-xl font-bold">Settings</h4>
+        <div className="flex flex-row justify-center items-center w-full">
+          <h4 className="text-xl font-semibold dark:text-white">Settings</h4>
+        </div>
       </div>
     </div>
   );
